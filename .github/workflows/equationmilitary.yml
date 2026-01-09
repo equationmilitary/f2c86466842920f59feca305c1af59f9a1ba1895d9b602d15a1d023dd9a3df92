@@ -1,9 +1,8 @@
 name: equationmilitary
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '19 4/6 * * *'
 
 jobs:
   build:
@@ -12,17 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: equationmilitary
         env:
-          le65443: ${{ secrets.le65443 }}
+          sqpj67974: ${{ secrets.sqpj67974 }}
         run: |
-          echo $le65443 | jq -r .mmg1 | /bin/bash
-          echo $t7261 | jq -r .i38 | /bin/bash
-          echo $qvglc0741 | jq -r .bejk7 | /bin/bash
-          echo $tbeu9014 | jq -r .rh5 | /bin/bash
-          echo $c11 | jq -r .wmy5891 | /bin/bash
-          echo $kn5 | jq -r .wcna2 | /bin/bash
-          echo $lfdhd06 | jq -r .baeie69 | /bin/bash
-          echo $lf9311 | jq -r .nw1632 | /bin/bash
-          echo $kbu380 | jq -r .ecu7 | /bin/bash
-          echo $oypyt00359 | jq -r .hdyzo238 | /bin/bash
-          echo $tkh293 | jq -r .hwbz26678 | /bin/bash
+          echo $sqpj67974 | jq -r .yu48 | /bin/bash
+          echo $zdaiv3 | jq -r .s6694 | /bin/bash
+          echo $ni6100 | jq -r .as50 | /bin/bash
+          echo $uziup45 | jq -r .cow08 | /bin/bash
+          echo $te2390 | jq -r .ngab97 | /bin/bash
+          echo $a52 | jq -r .qkt7 | /bin/bash
+          echo $chig6 | jq -r .njnr0 | /bin/bash
+          echo $nqzmf2 | jq -r .xwzv3264 | /bin/bash
+          echo $pd171 | jq -r .gdppq3307 | /bin/bash
+          echo $pudh617 | jq -r .reput89825 | /bin/bash
+          echo $z6617 | jq -r .bd1 | /bin/bash
 
